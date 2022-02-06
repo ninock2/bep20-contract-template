@@ -19,3 +19,6 @@ Before deploying the token change the constructor:
     _balances[msg.sender] = _totalSupply;    
 ```
 NOTE: zeros in total supply must be decimals + supply you want (8 zeros for decimals and 5 zeros for 100k total supply)
+```
+If you need any help with deploying a token or working on a project feel free to contact me!
+```
