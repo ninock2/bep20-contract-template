@@ -7,6 +7,7 @@ Token templates for BEP20 Binance Smart Chain.
 - Baby BEP20 Token
 - Safemoon Token Clone
 
+
 Before deploying the token change the constructor:
 
 ```solidity
