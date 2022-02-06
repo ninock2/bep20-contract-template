@@ -12,11 +12,11 @@ Before deploying the token change the constructor:
 
 ```solidity
  constructor() public {
-    _name = "BEP20 Standard";
-    _symbol = "BEST";
-    _decimals = 8;
-    _totalSupply = 10000000000000; // 100 thousand
-    _balances[msg.sender] = _totalSupply;    
+    _name = "BEP20 Standard"; /* Full token name */
+    _symbol = "BEST"; /* Token ticker */
+    _decimals = 8; /* Decmails 0.XXXXXXXX */
+    _totalSupply = 10000000000000; /* Total deployed supply */
+    _balances[msg.sender] = _totalSupply;  
 ```
 NOTE: zeros in total supply must be decimals + supply you want (8 zeros for decimals and 5 zeros for 100k total supply)
 ```
